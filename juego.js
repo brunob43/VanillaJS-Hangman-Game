@@ -7,10 +7,10 @@ const palabras = [
     'concat',     /* 1 */
     'typeof',    /* 2 */
     'slice',       /* 3 */
-    'tolowercase',     /* 4 */
-    'touppercase',       /* 5 */
-    'murciegalo',   /* 6 */
-    'microfono'     /* 7 */
+    'toLowerCase',     /* 4 */
+    'toUpperCase',       /* 5 */
+    'indexOf',   /* 6 */
+    'charAt'     /* 7 */
 ];
 const btn = id('jugar');
 const imagen = id( 'imagen' );
@@ -20,7 +20,7 @@ const btn_letras = document.querySelectorAll( "#letras button" );
 btn.addEventListener('click', iniciar );
 
 function iniciar(event){
-    imagen.src = 'img/fondo1.png';
+    imagen.src = 'img/img0.png';
     btn.disabled = true;
     cant_errores = 0;
     cant_aciertos = 0; 
@@ -72,7 +72,7 @@ function click_letras(event){
 
     if( acerto == false ){
         cant_errores++;
-        const source = `img/fondo${cant_errores}.png` ;
+        const source = `img/img${cant_errores}.png` ;
         imagen.src = source;
     }
 
