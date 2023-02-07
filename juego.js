@@ -3,12 +3,12 @@ let cant_errores = 0; //cuantas veces me equivoqué
 let cant_aciertos = 0; //cuantas letras acerté
 
 const palabras = [
-    'manzanas',     /* 0 */
-    'Camiseta',     /* 1 */
-    'caramelos',    /* 2 */
-    'ñoquis',       /* 3 */
-    'streamer',     /* 4 */
-    'twitch',       /* 5 */
+    'lentgh',     /* 0 */
+    'concat',     /* 1 */
+    'typeof',    /* 2 */
+    'slice',       /* 3 */
+    'tolowercase',     /* 4 */
+    'touppercase',       /* 5 */
     'murciegalo',   /* 6 */
     'microfono'     /* 7 */
 ];
